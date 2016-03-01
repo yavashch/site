@@ -1,0 +1,89 @@
+.ss {
+  margin-top: 80px;
+}
+
+.maincol {
+  position: relative;
+  height: 460px;
+  max-width: 420px;
+  margin: 20px auto;
+  margin-bottom: 0;
+  display: block;
+}
+
+.maincol:hover .button {
+  height: 70px;
+  background-color: #f4821f;
+  padding: 25px 0;
+}
+.maincol:hover .button .arrow {
+  left: 50px;
+  color: #fff;
+}
+.maincol:hover .button .buttontext {
+  opacity: 1;
+  left: 130px;
+}
+.maincol:hover .col {
+  height: 390px;
+}
+.maincol:hover .col img {
+  opacity: 0.4;
+}
+
+.col {
+  position: relative;
+  margin: 20px auto;
+  margin-bottom: 0;
+  max-width: 420px;
+  height: 420px;
+  border-left: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  border-top: 2px solid #f4821f;
+  transition: all .3s ease-out;
+}
+.col img {
+  display: block;
+  margin: 35% auto;
+  transition: all .3s ease-out;
+}
+.col h3 {
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.firstimg {
+  opacity: 0.6;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  background: #f1f1f1;
+  margin: 0 auto;
+  transition: all .3s ease-out;
+  text-decoration: none;
+}
+.button .arrow {
+  position: relative;
+  left: 0;
+  color: #383838;
+  height: 20px;
+  width: 20px;
+  transition: all .3s ease-out;
+}
+.button .buttontext {
+  position: absolute;
+  left: 100px;
+  color: #fff;
+  opacity: 0;
+  transition: all .3s ease-out;
+  text-transform: uppercase;
+}
